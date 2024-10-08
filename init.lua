@@ -641,6 +641,7 @@ require('lazy').setup({
       --
       --  You can press `g?` for help in this menu.
       require('mason').setup()
+      -- require('clojure-lsp').setup()
       -- require('render-markdown').setup()
       -- You can add other tools here that you want Mason to install
       -- for you, so that they are available from within Neovim.
@@ -839,6 +840,8 @@ require('lazy').setup({
       -- any other, such as 'tokyonight-storm', 'tokyonight-moon', or 'tokyonight-day'.
       -- vim.cmd.colorscheme 'tokyonight-moon'
       vim.g.sonokai_enable_italic = true
+      vim.g.sonokai_diagnostic_text_highlight = true
+
       vim.cmd.colorscheme 'sonokai'
       -- You can configure highlights by doing something like:
       vim.cmd.hi 'Comment gui=none'
