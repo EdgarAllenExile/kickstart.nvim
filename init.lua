@@ -118,7 +118,8 @@ vim.schedule(function()
   vim.opt.clipboard = 'unnamedplus'
 end)
 
--- Enable break indent
+-- Line break settings
+vim.opt.linebreak = true
 vim.opt.breakindent = true
 
 -- Save undo history
